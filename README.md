@@ -1,6 +1,6 @@
 # Spotify clone
 
-A [spotify clone](https://www.spotify.com) using [ReactJS](https://reactjs.org), React Context API & TailwindCSS for the frontend, [Firebase](https://firebase.google.com) for authorization, authentication, [Spotify for developers](https://developer.spotify.com).
+A [spotify clone](https://www.spotify.com) using [ReactJS](https://reactjs.org), React Context API, TailwindCSS & Material UI icons for the frontend, [Firebase](https://firebase.google.com) for authorization, authentication, [Spotify for developers](https://developer.spotify.com).
 
 <div align="center">
   <h1><a href="http://kangelopoulos.ddns.net:8080/spotify"> DEMO </a></h1>
