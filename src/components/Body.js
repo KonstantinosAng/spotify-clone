@@ -13,7 +13,7 @@ function Body() {
 	console.log(state.discover_weekly)
 
 	return (
-		<div className="bg-gradient-to-b from-gray-900 to-black h-full flex-grow p-5 text-white overflow-y-auto">
+		<div className="bg-gradient-to-b from-gray-900 to-black h-full flex-grow p-5 text-white overflow-y-auto scrollbar-hide">
 			<Header />
 			{state?.playlist &&
 			<>
