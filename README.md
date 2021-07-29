@@ -16,6 +16,12 @@ For Spotify Api you will need a spotify client id from [spotify developer API](h
 REACT_APP_SPOTIFY_CLIENT_ID=
 ```
 
+Also add from the setting a redirect URI to the following URI.
+
+```bash
+http://localhost:3000/spotify
+```
+
 ## Usage
 
 Assuming you have [npm](https://www.npmjs.com) or [yarn](https://www.yarnpkg.com) installed, clone the repo and run the following code:
