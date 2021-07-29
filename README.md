@@ -10,22 +10,10 @@ A [spotify clone](https://www.spotify.com) using [ReactJS](https://reactjs.org),
 
 Inside the repo there is a [.env.example file](./.env.example). Rename it to .env and fill the values with your own api keys.
 
-For firebase you will need a firebase config file from your webapp with the following values.
+For Spotify Api you will need a spotify client id from [spotify developer API](https://developer.spotify.com) with the following values.
 
 ```javascript
-REACT_APP_FIREBASE_API_KEY=
-REACT_APP_FIREBASE_AUTH_DOMAIN=
-REACT_APP_FIREBASE_PROJECT_ID=
-REACT_APP_FIREBASE_STORAGE_BUCKET=
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID=
-REACT_APP_FIREBASE_APP_ID=
-REACT_APP_FIREBASE_MEASUREMENT_ID=
-```
-
-For the image data you will need an API key from pexels.
-
-```javascript
-REACT_APP_PEXELS_API_KEY=
+REACT_APP_SPOTIFY_CLIENT_ID=
 ```
 
 ## Usage
@@ -38,16 +26,6 @@ npm install && npm start
 or
 
 yarn install && yarn start
-```
-
-To build the .exe file for your own OS run the following code:
-
-```bash
-npm run make
-
-or
-
-yarn run make
 ```
 
 ## Examples
