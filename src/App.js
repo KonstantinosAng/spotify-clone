@@ -32,9 +32,8 @@ function App() {
 					playlists: playlists
 				})
 			})
-
+			window.location.hash = ''
 		}
-		window.location.hash = '';
 	}, [dispatch])
 
 	useEffect(() => {
@@ -51,7 +50,7 @@ function App() {
 	return (
     <div>
 			{state.token ?
-				<Player />
+				<Player spotify={spotify}/>
 				:
 				<Login />
 			}

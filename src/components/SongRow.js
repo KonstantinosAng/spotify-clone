@@ -17,13 +17,13 @@ function SongRow({ track }) {
 	return (
 		<div onClick={() => handleSongClick()} className="flex items-center justify-start my-8 mx-3 hover:bg-black cursor-pointer">
 			<img
-			className="object-contain w-20"
+			className="object-contain w-16 sm:w-20"
 			src={track?.album?.images[0]?.url}
 			alt={track?.name}
 			/>
 			<div className="ml-5">
-				<h1 className="text-white font-bold text-xl">{track?.name}</h1>
-				<p className="text-gray-500">
+				<h1 className="text-white font-bold text-md sm:text-xl">{track?.name}</h1>
+				<p className="text-gray-500 text-xs sm:text-md">
 					{track?.artists.map(artist => artist?.name)} - {track?.album?.name}
 				</p>
 			</div>

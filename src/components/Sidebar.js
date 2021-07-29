@@ -12,18 +12,17 @@ function Sidebar() {
 	const [state, dispatch] = useStateProviderValue()
 
 	return (
-		<div className="h-full w-52 p-5 bg-black text-white overflow-y-auto">
+		<div className="h-full w-52 p-5 bg-black text-white overflow-y-auto scrollbar-hide pb-24">
 			<img className="object-contain w-32 mb-6" src={Logo} loading="lazy" alt=""/>
 			<SidebarOption title="Home" Icon={HomeIcon}/>
 			<SidebarOption title="Search" Icon={SearchIcon}/>
 			<SidebarOption title="Your Library" Icon={LibraryMusicIcon}/>
 			<br/>
-			<p className="text-md ml-1 pb-2">PLAYLISTS</p>
+			<p className="text-xs hidden md:block md:text-md md:ml-1 pb-2">PLAYLISTS</p>
 			<hr className="border solid border-gray-800 my-auto mb-5"/>
 			{state.playlists?.items?.map(playlist => (
 				<SidebarOption key={playlist.id} id={playlist.id} title={playlist.name}/>
 			))}
-
 		</div>
 	)
 }
