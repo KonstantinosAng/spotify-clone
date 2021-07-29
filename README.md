@@ -2,6 +2,10 @@
 
 A [spotify clone](https://www.spotify.com) using [ReactJS](https://reactjs.org), React Context API, [TailwindCSS](https://tailwindcss.com) & [Material UI icons](https://material-ui.com) for the frontend and [Spotify for developers](https://developer.spotify.com) for the backend authentication and authorization.
 
+<div align="center">
+  <h1><a href="http://kangelopoulos.ddns.net:8080/spotify"> DEMO </a></h1>
+</div>
+
 ## Requirements
 
 Inside the repo there is a [.env.example file](./.env.example). Rename it to .env and fill the values with your own api keys.
