@@ -26,7 +26,6 @@ yarn install && yarn start
 
 ## Examples
 
-Electron app
 <br>
 <p align="center">
   <img src="img/img1.png"/>
