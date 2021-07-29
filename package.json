@@ -2,6 +2,7 @@
   "name": "spotify",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/spotify",
   "dependencies": {
     "@craco/craco": "^6.2.0",
     "@material-ui/core": "^4.12.2",
